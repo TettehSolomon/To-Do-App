@@ -14,4 +14,7 @@ addToDoButton.addEventListener('click', function(){
     paragraph.addEventListener('dblclick', function(){
         toDoContainer.removeChild(paragraph);
     })
+    paragraph.addEventListener('mouseleave', function(){
+        paragraph.classList.add('mouse-leave');
+    })
 })
