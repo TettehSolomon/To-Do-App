@@ -36,4 +36,19 @@ html, body {
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 14px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.mouse-leave {
+    color: orange;
+    border: 3px solid red;
+    border-radius: 14px;
+    padding: 5px;
+    margin: 5px;
+    
 }
